@@ -40,10 +40,28 @@ Instructions for Users----------------------------------------------------------
 
     Downloading Files:
     If you encounter large files (e.g., .tif), ensure you have Git LFS installed to handle large file storage and downloading. See Git LFS Installation Guide for details.
+    ==> for the DEM for instance:
+    Downloading Files: 
+    If you encounter large files (e.g., .tif), ensure you have Git LFS installed to handle large file storage and downloading. See Git LFS Installation Guide for details.
+    Guide: (1)Install Git LFS at https://git-lfs.com/
+           (2) Once installed, users can clone the repository and download large files with the following commands (WITHIN COMMAND PROMPT FOR WINDOWS or git bash if familiar):
 
-    Using Data:
+           
+           ==> git lfs install
+           ==> git clone https://github.com/Etidel98/TM_2024.git
+
+           
+    Using Data:--------------
+    Each folder contains data pre-processed for SWAT+. Ensure that paths in SWAT+ are correctly linked to these files.
+    For any issues with data compatibility, refer to the SWAT+ user manual.
+
+    
+    Contact:----------------
+    For questions or issues, feel free to contact the repository maintainer.
+    
+    Using Data:-------------
         Each folder contains data pre-processed for SWAT+. Ensure that paths in SWAT+ are correctly linked to these files.
         For any issues with data compatibility, refer to the SWAT+ user manual.
 
-    Contact:
+    Contact:----------------
     For questions or issues, feel free to contact the repository maintainer.
